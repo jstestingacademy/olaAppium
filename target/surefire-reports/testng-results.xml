@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-17T21:01:36 IST" name="Parallel Tests" finished-at="2025-01-17T21:02:07 IST" duration-ms="30219">
+    <groups>
+    </groups>
+    <test started-at="2025-01-17T21:01:36 IST" name="Pixel6" finished-at="2025-01-17T21:02:03 IST" duration-ms="26223">
+      <class name="com.ola.Testcase.BrowserStackTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ola.Testcase.BrowserStackTest@63355449]" started-at="2025-01-17T21:01:36 IST" name="setup" finished-at="2025-01-17T21:02:03 IST" duration-ms="26194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Pixel 6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.ola.Testcase.BrowserStackTest@63355449]" started-at="2025-01-17T21:02:03 IST" name="test" finished-at="2025-01-17T21:02:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ola.Testcase.BrowserStackTest -->
+    </test> <!-- Pixel6 -->
+    <test started-at="2025-01-17T21:01:36 IST" name="GalaxyS22" finished-at="2025-01-17T21:02:07 IST" duration-ms="30219">
+      <class name="com.ola.Testcase.BrowserStackTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ola.Testcase.BrowserStackTest@16ec5519]" started-at="2025-01-17T21:01:36 IST" name="setup" finished-at="2025-01-17T21:02:07 IST" duration-ms="30201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy S22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.ola.Testcase.BrowserStackTest@16ec5519]" started-at="2025-01-17T21:02:07 IST" name="test" finished-at="2025-01-17T21:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ola.Testcase.BrowserStackTest -->
+    </test> <!-- GalaxyS22 -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>
